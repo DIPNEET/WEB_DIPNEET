@@ -1,37 +1,43 @@
 <html>
    <head>
-      <title>Survey Form</title>
+      <title>Survey</title>
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
+     
+        <div class="menu">
+            <a href="index.html">Home</a>
+           
+            <a href="aboutme.html">About Me</a>
+        </div>
       <h1  class="title">Online Class Survey Form</h1>
    <div class="form">
-      <form action="#" id="survey-form">
-         <label for="name" id="name-label">Name</label><br>
-         <input type="text" id="name" placeholder="Enter your name" required><br><br>
-         <label for="email" id="email-label" type="email">Email</label><br>
-         <input type="email" id="email" placeholder="Enter your Email Id" required><br><br>
-         <label for="pass" id="pass-label" type="password">Password for Online Class</label><br>
-         <input type="password" id="pass" placeholder="Enter your Online Class Password" required><br><br>
-         <label for="number" id="number-label">Age (Optional)</label><br>
-         <input type="number" id="number" min="10" max="99" placeholder="Age"><br>
-         <label for="dropdown" id="drop">Your Current Role in DUCS?</label><br><br>
-         <select name="" id="dropdown">
+      <form>
+         <label >Name</label><br>
+         <input  placeholder="Enter your name" required><br><br>
+         <label type="email">Email</label><br>
+         <input placeholder="Enter your Email Id" required><br><br>
+         <label type="password">Password for Online Class</label><br>
+         <input placeholder="Enter your Online Class Password" required><br><br>
+         <label >Age (Optional)</label><br>
+         <input type="number" min="10" max="99" placeholder="Age"><br>
+         <label >Your Current Profession?</label><br><br>
+         <select name="" >
             <option value="">Select an option</option>
             <option value="">Student</option>
             <option value="">Teacher</option>
             <option value="">Non Teaching Staff</option>
             <option value="">Other</option>
          </select><br><br> 
-        <label for="recomm">How are Online Classes?</label>
-         <ul id="radio" style="list-style-type:none;">
+        <label >How are Online Classes?</label>
+         <ul id="radio" >
          <li><input type="radio" name="recomm" value="0"> Not So Good</li>
          <li><input type="radio" name="recomm" value="0"> Very Good</li>
          <li><input type="radio" name="recomm" value="0"> Amazing</li>
          </ul>
         <br>
-         <label for="best">What is your favorite Online Class this Semester?</label><br>
-         <select name="best" id="best">
+         <label >What is your favorite Online Class?</label><br>
+         <select name="">
             <option value="">Select an option</option>
             <option value="">Web Technologies</option>
             <option value="">Automata Theory</option>
@@ -42,17 +48,17 @@
         <br>
             <label>What would you like to see improved?</label><br>
             <ul id="chck-box" style="list-style-type:none;">
-               <li><input type="checkbox" value="front-end">Course Content</li>
-               <li><input type="checkbox" value="back-end">Regular Classes</li>
-               <li><input type="checkbox" value="data-visualization">Online Class Software</li>
-               <li><input type="checkbox" value="challenge">Less Workload</li>
-               <li><input type="checkbox" value="open-source">More Questions</li>
-               <li><input type="checkbox" value="video">Video Quality</li>
-               <li><input type="checkbox" value="meetup">Practical Based Knowledge</li>
-               <li><input type="checkbox" value="add-course">Interactive Sessions</li>
+               <li><input type="checkbox">Course Content</li>
+               <li><input type="checkbox" >Regular Classes</li>
+               <li><input type="checkbox" >Online Class Software</li>
+               <li><input type="checkbox" >Less Workload</li>
+               <li><input type="checkbox" >More Questions</li>
+               <li><input type="checkbox" >Video Quality</li>
+               <li><input type="checkbox">Practical Based Knowledge</li>
+               <li><input type="checkbox" >Interactive Sessions</li>
             </ul>
-         <label for="txt-area">Any comments or suggestions ? </label>
-        <input type="text" id="text-area" name="" placeholder="Enter your comment"><br><br>
+         <label>Any comments or suggestions ? </label>
+        <input type="text" placeholder="Enter your comment"><br><br>
          <br><button id="submit">Submit</button>
       </form>
    </div>
