@@ -13,11 +13,11 @@ h1 {
 .header{
     background-color:burlywood;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     margin-top:10px;
-    margin-left:430px;
-    height:100px;
-    width:630px
+    margin-left:22%;
+    height:5%;
+    width:57%
 }
 
 .site-description{
@@ -35,7 +35,7 @@ h1 {
 .footer{
     display: flex;
     justify-content: center;
-    margin-top:20%
+    margin-top:3%
 }
 
 p,h2{
@@ -62,6 +62,10 @@ a:visited{
     margin-top:1%;
    
     margin-left:28%;
+  
+   
+    height:5%;
+    
     
 }
 
@@ -90,19 +94,21 @@ a:visited{
     opacity: 0.33;
 } 
 
-.hw{
-    margin-left:700px;
+.h{
+    margin-left:48%;
    
     
 }
-.hw:hover{
-    transform: scaleY(2)
+.h:hover{
+    transform: scaleY(1.5);
+  
 }
 .form{
     justify-content: center;
     align-self: center;
     align-items: center;
-    margin-left: 40%;
+    margin-left: 45%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 .title{
     color: black;
